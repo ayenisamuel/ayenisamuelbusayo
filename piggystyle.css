@@ -1,0 +1,97 @@
+body {
+    background-color: #add8e6;
+}
+.content {
+    margin: auto;
+    align-content: center;
+    background-color: white;
+    width: 30%;
+    padding: 12px 18px 12px 12px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+div {
+    margin-top: 0;
+    margin-bottom: 23px;
+}
+input[type="text"] {
+    width: 94%;
+    padding: 20px 30px;
+    margin-top: 9px;
+    background-color: #edf2f7;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border: none;
+}
+input[type="password"] {
+    width: 94%;
+    padding: 20px 30px;
+    margin-top: 9px;
+    background-color: #edf2f7;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border: none;
+}
+select#click {
+    width: 94%;
+    padding: 20px 30px;
+    margin-top: 9px;
+    background-color: #edf2f7;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border: none;
+}
+button.button {
+    width: 95%;
+    padding: 20px 30px;
+    background-color: #083e9e;
+    color: white;
+    font-size: 20px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border: none;
+}
+.image {
+    text-align: center;
+    margin: 4%;
+}
+.header {
+    text-align: center;
+}
+h2 {
+    color: #083e9e;
+    font-family: U8,sans-serif;
+}
+p {
+    margin-top: -19px;
+}
+.text {
+    padding-left: 20px;
+    padding-bottom: 17px;
+}
+label {
+    font-weight: bold;
+    font-family: U8,sans-serif;
+    font-weight: 700;
+    font-size: .75rem;
+    color: #4a5568;
+}
+.footer {
+    text-align: center;
+    margin-top: 5%;
+}
+a {
+    color: white;
+    text-decoration: unset;
+}
+:hover {
+    background-color: gray;
+}
