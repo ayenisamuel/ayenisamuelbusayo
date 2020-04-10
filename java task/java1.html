@@ -1,0 +1,50 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>java task 1</title>
+</head>
+<body>
+    <p id="java"></p>
+    <p id="task"></p>
+    <p id="html"></p>
+    <script>
+        var name = "Ayeni Samuel busayo"
+        var courses=["javascript", "css", "html"];
+        document.getElementById("java").innerHTML = name;   
+var word;
+var courseslength;
+var i;
+courses = ["HTML", "CSS" ,"JAVASCRIPT"];
+courseslength = courses.length;
+word = "<ul>";
+for (let i = 0; i < courseslength; i++) {
+    word = word + "<li>" + courses[i] + "</li>";
+}
+word = word + "</ul>";
+document.getElementById("task").innerHTML = word;
+var remainder = courseslength % 2;
+var totalNumber = 200
+if (remainder == 0) {
+    var html ="<ul>";
+    for (let index = 1; index <= totalNumber; index++){
+        var evenRemainder = index % 2;
+       if (evenRemainder == 0) {
+           html += "<li>" + index + "</li>";
+       }
+    }
+    html += "</ul>";
+} else {
+    var html = "<ul>";
+    for (let index = 1; index <= totalNumber; index++) {
+        var evenRemainder = index % 2;
+        if (evenRemainder != 0) {
+            html += "<li>" + index + "</li>";
+        }
+    }
+    html += "</ul>";
+}
+document.getElementById("html").innerHTML = html;
+    </script>
+</body>
+</html>
